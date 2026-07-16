@@ -5,9 +5,9 @@ sys.path.insert(0, os.path.dirname(__file__))
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from apis.yahoo_finance import YahooFinanceAPI
-from apis.telegram_bot  import TelegramBot
-from strategies.combined_strategy import CombinedStrategy
+from yahoo_finance import YahooFinanceAPI
+from telegram_bot import TelegramBot
+from combined_strategy import CombinedStrategy
 
 app = FastAPI(title="Trading Alert System")
 
