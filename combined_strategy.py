@@ -1,4 +1,4 @@
-from strategies.rsi_strategy import RSIStrategy
+from rsi_strategy import RSIStrategy
 
 class CombinedStrategy:
     def __init__(self):
