@@ -74,7 +74,3 @@ def test_telegram():
     success = telegram.send_message("✅ <b>Trading Bot is Live!</b>")
     return {"telegram_working": success}
 
-# ─────────────────────────────────────────
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
